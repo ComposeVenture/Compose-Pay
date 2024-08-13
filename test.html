@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Pay</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <p>This is A Test Payment</p>
+
+    <button id="Bu" onclick="PayNow()">Pay Now</button>
+</body>
+<script>
+
+const PayNow=()=>{
+
+    const BU=document.querySelector('#Bu');
+
+    BU.innerHTML='Please Wait';
+
+    TOKENIZATION('erouandrewrichard01@gmail.com','https://composeventure.github.io/Compose-Pay/','1')
+
+    setTimeout(() => {
+        if (sessionStorage.getItem('PaymentLink')) {
+
+            open(sessionStorage.getItem('PaymentLink'))
+            
+        }
+    }, 5000);
+
+}
+
+</script>
+</html>

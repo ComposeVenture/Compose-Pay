@@ -202,4 +202,3 @@ const PROCESSAPI=(RESULT,TOKEN,EMAIL,LINK,AMOUNT)=>{
                       
 }
 
-TOKENIZATION('erouandrewrichard01@gmail.com','https://composeventure.github.io/Compose-Pay/','5')
