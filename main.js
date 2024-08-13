@@ -201,4 +201,3 @@ const PROCESSAPI=(RESULT,TOKEN,EMAIL,LINK,AMOUNT)=>{
     .catch(error => console.log('error', error));
                       
 }
-
