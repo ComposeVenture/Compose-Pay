@@ -1,5 +1,4 @@
-{
-  "websites": [
+ [
     {
       "name": "Google",
       "url": "https://www.google.com",
@@ -101,4 +100,3 @@
       "is_real": true
     }
   ]
-}
